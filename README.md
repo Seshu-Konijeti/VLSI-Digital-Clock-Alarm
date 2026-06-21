@@ -224,4 +224,8 @@ Full numbers and a note on the one real DRC issue hit along the way (and its fix
 ## Author
 
 **Seshuu** — VLSI Course Project
-GitHub: [github.com/seshu-8](https://github.com/seshu-8)
+
+## 🤝 Connect With Me
+
+* **GitHub:** [github.com/YOUR_USERNAME](https://github.com/Seshu-Konijeti)
+* **LinkedIn:** [linkedin.com/in/YOUR_LINKEDIN_ID](https://www.linkedin.com/in/seshu-babu-konijeti-74968b2b9?utm_source=share_via&utm_content=profile&utm_medium=member_android)
