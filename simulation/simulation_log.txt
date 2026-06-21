@@ -1,0 +1,26 @@
+=====================================================
+ TESTBENCH START: digital_clock_alarm_top
+=====================================================
+VCD info: dumpfile waveforms/digital_clock_alarm_tb.vcd opened for output.
+[PASS] Reset: hours == 0  (time=45000)
+[PASS] Reset: minutes == 0  (time=45000)
+[PASS] Reset: seconds == 0  (time=45000)
+[PASS] Reset: alarm_led == 0  (time=45000)
+[PASS] After 1 tick: seconds == 1 : value=1  (time=165000)
+[PASS] fter 5 total ticks: seconds == 5 : value=5  (time=565000)
+[PASS] After 60 ticks: seconds == 0 : value=0  (time=6065000)
+[PASS] After 61 ticks: minutes == 1 : value=1  (time=6165000)
+[PASS] After 61 ticks: seconds == 1 : value=1  (time=6165000)
+[PASS]  1hr (pre-settle): minutes == 59 : value=59  (time=360065000)
+[PASS] After 1hr total: hours == 1 : value=1  (time=360165000)
+[PASS] After 1hr total: minutes == 0 : value=0  (time=360165000)
+[PASS] After 23hr total: hours == 23 : value=23  (time=8280165000)
+[PASS] Midnight rollover: hours == 0 : value=0  (time=8640165000)
+[PASS] ires when time matches & enabled  (time=8646305000)
+[PASS] larm does NOT fire when disabled  (time=8652445000)
+[PASS] m stays low when time mismatched  (time=8658585000)
+=====================================================
+ TESTBENCH COMPLETE: 17 checks run, 0 failures
+ RESULT: ALL TESTS PASSED
+=====================================================
+tb/tb_digital_clock_alarm_top.v:243: $finish called at 8658585000 (1ps)

@@ -1,0 +1,29 @@
+# Vivado generated project files
+*.jou
+*.log
+*.str
+.Xil/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.srcs/managed_ip_project/
+vivado*.backup.jou
+vivado*.backup.log
+*.bit
+*.ltx
+
+# Icarus Verilog build outputs
+sim_out
+demo_out
+*.vvp
+a.out
+
+# Large/raw simulation waveforms (keep only the small curated demo .vcd)
+*.vcd
+!waveforms/demo_waveform.vcd
+
+# OS files
+.DS_Store
+Thumbs.db
